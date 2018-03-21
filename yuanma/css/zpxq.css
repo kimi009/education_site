@@ -1,0 +1,113 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.outer {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*标题部分---------------------------------------------------------------------------------------------------*/
+.header {
+	padding: 24px 0;
+}
+.header .title {
+	font-size: 39px;
+	font-weight: bolder;
+	padding-bottom: 20px;
+}
+.date, .time {
+	font-size: 17px;
+	padding-right: 15px;
+	display: inline-block;
+}
+.goodBtn, .read {
+	padding-right: 20px;
+	float: right;
+}
+.goodBtn span, .read span {
+	font-size: 15px;
+}
+.goodBtn .head-icon, .read .head-icon {
+	display: inline-block;
+	position: relative;
+	margin: 0 5px;
+	height: 16px;
+	background-image: url('../images/zpxq/sprite.png');
+}
+.goodBtn .head-icon {
+	background-position: -97px 0;
+	/*background-image: url('zpxq/good.png');*/
+	width: 17px;
+}
+.read .head-icon {
+	background-position: -97px -44px;
+	/*background-image: url('zpxq/eye.png');*/
+	width: 21px;
+}
+/*介绍部分---------------------------------------------------------------------------------------------------*/
+.part-intro{
+	margin-right: -10px ;
+}
+.part-intro img {
+	float: left;
+	padding: 45px 45px 45px 0;
+}
+.intro-word{
+	float: left;
+	vertical-align: top;
+	padding-top: 45px;
+}
+.intro-word .intro-title {
+	font-weight: bolder;
+	vertical-align: top;
+	width: auto;
+}
+.intro-word p {
+	display: inline-block;
+	overflow: hidden;
+	font-size: 20px;
+	width: 498px;
+	height: 274px;
+}
+.intro-word .share-area a{
+	display: inline-block;
+	margin: 15px 3px;
+	width: 44px;
+	height: 45px;
+	background-image: url('../images/zpxq/sprite.png');
+	background-repeat: no-repeat;
+}
+.intro-word .share-area .icon-wechat {
+	/*background-image: url('zpxq/icon-wechat.png');*/
+	background-position: -44px 0;
+}
+.intro-word .share-area .icon-weibo {
+	/*background-image: url('zpxq/icon-weibo.png');*/
+	background-position: -44px -45px;
+}
+.intro-word .share-area .icon-qqzone {
+	/*background-image: url('zpxq/icon-qqzone.png');*/
+	background-position: 2px -45px;
+}
+.intro-word .share-area .icon-qq {
+	/*background-image: url('zpxq/icon-qq.png');*/
+}
+/*说明部分---------------------------------------------------------------------------------------------------*/
+.part-explain {
+	padding-bottom: 200px;
+}
+.part-explain .title {
+	font-size: 26px;
+	font-weight: bolder;
+	padding: 20px 0;
+}
+.part-explain .passage {
+	font-size: 20px;
+	line-height: 30px;
+	padding: 30px 0;
+}
+.part-explain img {
+	width: 1200px;
+	padding: 12px 0;
+}

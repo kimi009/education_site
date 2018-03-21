@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.outer {
+	margin: 0 auto;
+	width: 1200px
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+/*教师信息--------------------------------------------------------------------------------------*/
+.part-info {
+	margin: 22px 0 12px;
+}
+.part-info .photo{
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	width: 314px;
+	height: 408px;
+	padding: 0 90px;
+}
+.part-info .info-detail {
+	vertical-align: top;
+	display: inline-block;
+	width: 695px;
+	padding-top: 27px;
+}
+.part-info .info-detail .name {
+	font-size: 39px;
+	font-weight: bolder;
+	display: inline-block;
+	padding-right: 25px;
+}
+.part-info .info-detail .job {
+	display: inline-block;
+}
+.part-info .info-detail .job .job-icon {
+	padding-right: 7px
+}
+.part-info .info-detail .job .job-name {
+	display: inline-block;
+	font-size: 13px;
+	vertical-align: bottom;
+}
+.part-info .info-detail .info-intro {
+	height: 200px;
+	overflow: hidden;
+	font-size: 15px;
+	line-height: 25px;
+	color: #878787;
+	padding-top: 15px;
+}
+.part-info .info-detail .question {
+	display: block;
+	font-size: 20px;
+	width: 173px;
+	height: 46px;
+	text-align: center;
+	color: #ffffff;
+	line-height: 46px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color: #e31c30;
+	text-decoration: none;
+	margin: 8px 0;
+}
+/*详细介绍------------------------------------------------------------------------------*/
+.part-intro {
+	margin-bottom: 100px;
+}
+.part-intro .header-icon {
+	width: 8px;
+	height: 40px;
+	display: inline-block;
+	background-color: #003a6a;
+	vertical-align: bottom;
+}
+.part-intro .title-style {
+	display: inline-block;
+	font-size: 30px;
+	color: #003a6a;
+	line-height: 40px;
+	padding: 0 12px;
+}
+.part-intro .bar {
+	width: 1200px;
+	background-color: #ffffff;
+}
+.part-intro .bar li {
+	display: inline-block;
+	width: 160px;
+	height: 60px;
+	font-size: 25px;
+	line-height: 60px;
+	text-align: center;
+	color: #000000;
+}
+.part-intro .bar li:hover {
+	cursor: pointer;
+}
+.part-intro .bar .focus {
+	background-color: #ff0000;
+	color: #ffffff;
+}
+.part-intro .teacher-intro {
+	margin-top: 48px;
+}
+.part-intro .word-detail {
+	font-size: 20px;
+	line-height: 30px;
+	padding: 20px 0;
+}
+/*项目经验---------------------------------------------------------------------------*/
+.experience .ex-intro {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 20px 100px 20px 25px;
+}
+.experience .ex-intro img {
+	padding-right: 20px;
+}
+.experience .ex-detail {
+	margin-left: 58px;
+}
+.experience .ex-detail .ex-item {
+	margin-bottom: 32px;
+}
+.experience .ex-detail .ex-title {
+	margin: 10px 0 32px;
+}
+.experience .ex-detail .ex-title .title-icon {
+	display: inline-block;
+	width: 7px;
+	height: 21px;
+	background-color: #23abeb;
+	vertical-align: bottom;
+	margin-right: 20px; 
+}
+.experience .ex-detail .ex-title p {
+	display: inline-block;
+	font-size: 18px;
+}
+.experience .ex-detail .ex-item .item-detail, .experience .ex-detail .ex-item .item-title{
+	font-size: 18px;
+}
+.experience .ex-detail .ex-item .item-title ,.experience .ex-detail .ex-item .item-detail span {
+	font-size: 18px;
+	font-weight: bold;
+}
+/*底部返回按钮---------------------------------------------------------------------------------------------*/
+.back {
+	width: 173px;
+	height: 46px;
+	line-height: 46px;
+	display: block;
+	margin: 75px auto;
+	font-size: 20px;
+	background-color: #e31c30;
+	color: white;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	border-radius: 18px;
+}

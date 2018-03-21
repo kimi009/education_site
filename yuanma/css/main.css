@@ -1,0 +1,131 @@
+.main{
+	width: 1200px;
+	margin: 40px auto 0px;
+}
+.main_left{
+	width: 70%;
+    /*height:2000px;*/
+    background: #fff;
+    margin-bottom: 30px;
+    float: left;
+}
+.mian_right{
+	width: 28%;
+	height: 800px;
+	float: right;
+}
+.mianr_heard{
+	width: 100%;
+	height: 30px;
+	background: #fff url(../images/img_cj/hot_word.png) no-repeat 10px 5px;
+	margin-bottom: 5px;
+}
+.mianr_text{
+	width: 100%;
+	height: 765px;
+    background: #fff;
+}
+.mianr_text ul{
+	list-style: none;
+	padding: 10px 10px 0px 0px;
+}
+.mianr_text ul li{
+	font-size: 24px;
+	height: 30px;
+   width: 232px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.mianr_text ul li a{
+	font-size: 18px;
+	font-family: "微软雅黑"
+}
+.mianr_text ul li a:before{
+	content: '';
+	display: inline-block;;
+	width: 20px;
+	height:11px;
+	background: url(../images/img_cj/red_logo.png) no-repeat center center;
+}
+.mianr_botton{
+	width: 100%;
+	margin-top: 20px;
+}
+.mianr_botton img{
+	width: 100%;
+}
+.mianl_con{
+	width: 90%;
+	margin: 0 auto;
+}
+.con_heard{
+	width: 100%;
+	height: 100px;
+    padding: 5px 0px 10px;
+    border-bottom: 2px solid #CEBCBC;
+}
+.con_heard p{
+	height:30px;
+	line-height: 30px;
+}
+.con_heard h1{
+	height: 50px;
+	line-height:50px;
+	font-size: 2em;
+}
+.con_heard span{
+	font-size: 14px;
+	font-weight: bold;
+}
+.con_heard span.eye{
+	font-weight:normal;
+	margin-left: 40px;
+	line-height: 20px;
+	color:#B5B4B4;
+}
+.con_heard span.eye:before{
+	content: '';
+	width: 30px;
+	height: 14px;
+	display:inline-block;
+	background: url(../images/img_cj/yj.png) no-repeat center center;
+}
+.con_mian{
+	width: 100%;
+	border-bottom: 2px solid #CEBCBC;
+}
+.con_mian p{
+    font-size: 16px;
+    padding: 30px 0px 0px;
+    line-height: 28px
+}
+.con_mian img{
+	margin-top: 20px;
+	width: 100%;
+}
+.ly_btn{
+	width: 98%;
+	height:40px;
+	border-radius: 10px;
+	background: #2096D4;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	padding-left: 2%;
+	margin-top:50px;
+	margin-bottom: 20px
+}
+.con_button{
+	margin-top: 30px;
+}
+.con_button p{
+	height:30px;
+	font-size: 16px;
+}
+.con_button p a{
+	height:30px;
+	font-size: 16px;
+}
+.con_button p:nth-child(1) a{
+	color: #2096D4;
+}

@@ -1,0 +1,232 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.tit{
+    text-align: center;
+    font-size: 52px;
+    line-height: 64px;
+    color: #434343;
+}
+.tit span{
+    font-size: 100%;
+    color: #e31c30;
+}
+.banner{
+    min-width: 1200px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    vertical-align: top;
+}
+.banner .btns{
+    position: absolute;
+    bottom: 15%;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 508px;
+    height: 60px;
+}
+.banner .btns a{
+    line-height: 60px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 220px;
+    height: 60px;
+    background: url("../images/iOS/btn1.png");
+}
+.want{
+    padding: 50px 0 70px;
+    min-width: 1200px;
+}
+.want_wrap{
+    width: 1200px;
+    margin:58px auto 50px;
+}
+.btn1{
+    display: block;
+    width: 360px;
+    height: 64px;
+    margin: auto;
+    background: url("../images/date/btn1.png");
+}
+.power{
+    padding: 80px 0 88px;
+    min-width: 1200px;
+    height: 540px;
+    background: url("../images/date/mask.png");
+}
+.power .tit{
+    margin-bottom: 75px;
+    color: white;
+}
+.power_wrap{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.power_wrap p{
+    color: white;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: left;
+
+}
+.power_wrap p span{
+    color: #e31c30;
+    font-size: 100%;
+}
+.map{
+    position: absolute;
+    right: 5px;
+    top: 61px;
+}
+.statu{
+    padding: 70px 0 100px;
+    width: 1200px;
+    margin: auto;
+}
+.statu .p1{
+    text-align: center;
+    color: #383838;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 26px 0 50px;
+}
+.statu_tit{
+    color: #e31c30;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+.statu_media .media_pic{
+    width: 480px;
+    height: 224px;
+    overflow: hidden;
+}
+.statu_media .media_pic img{
+    width: 480px;
+    vertical-align: top;
+}
+.statu_media  .media_body{
+    padding: 50px 0 0 70px;
+    width: 666px;
+    height: 174px;
+}
+.statu_media .left div{
+    float: left;
+}
+.statu_media .right div{
+    float: right;
+}
+.statu_media .left  .media_body{
+    margin-left: -16px;
+}
+.statu_media .right  .media_body{
+    margin-right: -16px;
+}
+.media_body h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 22px;
+}
+.media_body p{
+    color: white;
+    font-size: 30px;
+    line-height: 36px;
+}
+.statu_media .li1 .media_body{
+    background: url("../images/date/statu_bg1.png");
+}
+.statu_media .li2 .media_body{
+    background: url("../images/date/statu_bg2.png");
+}
+.statu_media .li3 .media_body{
+    background: url("../images/date/statu_bg3.png");
+}
+.statu_media .li4 .media_body{
+    background: url("../images/date/statu_bg4.png");
+}
+.choice{
+    text-align: center;
+    min-width: 1200px;
+    background: #29333d;
+    padding: 70px 0 52px;
+}
+.choice .tit{
+    color: white;
+}
+.choice p{
+    font-size: 22px;
+    color: white;
+    margin: 33px 0 68px;
+}
+.choice .btn2{
+    width: 334px;
+    height: 59px;
+    display: block;
+    margin: auto;
+    background: url("../images/date/btn2.png");
+}
+.lz{
+    position: relative;
+    min-width: 1200px;
+}
+.lz_bg{
+    width: 100%;
+    min-height: 690px;
+}
+.lz_info{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 1200px;
+    height: 514px;
+    margin: auto;
+}
+.lz_info .tit{
+    text-align: center;
+    font-size: 54px;
+    line-height: 65px;
+    color: white;
+}
+.lz_info span{
+    font-size: 100%;
+    color: #e31c30;
+}
+.lz_info form{
+    margin-top: 110px;
+    text-align: center;
+}
+.lz_info form label{
+    display: inline-block;
+    width: 580px;
+    font-size: 28px;
+    line-height: 62px;
+    margin-bottom: 10px;
+    color: white;
+}
+.lz_info form input{
+    border: none;
+    margin-left: 15px;
+    width: 425px;
+    line-height: 62px;
+    height: 62px;
+    outline: none;
+    background: url("../images/date/btn5.png");
+}
+.btn6{
+    width: 455px;
+    height: 64px;
+    display: block;
+    margin: 70px auto 0;
+    background: url("../images/date/btn6.png");
+}

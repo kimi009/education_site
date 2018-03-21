@@ -1,0 +1,213 @@
+.banner{
+    position: relative;
+    min-width: 1200px;
+}
+.banner img{
+    width: 100%;
+    vertical-align: top;
+}
+.banner_con{
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.banner_con h1{
+    color: white;
+    font-size: 38px;
+    height: 80px;
+    line-height: 80px;
+}
+.banner_con span{
+    font-size: 38px;
+}
+.banner_con p{
+    color: white;
+    font-size: 20px;
+}
+.list{
+    background: #f0f0f0;
+    padding-bottom: 55px;
+}
+.list_tab{
+    padding-top: 50px;
+    margin-bottom:50px;
+}
+.list_tab ul{
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.list_tab li{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 30px;
+}
+.list_tab li p{
+    margin-top: 32px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #575757;
+}
+.list_tab li .icon{
+    width: 145px;
+    height: 144px;
+    margin: auto;
+}
+.web_tab .icon{
+    background: url("../images/wblist/web_icon1.png");
+}
+.app_tab .icon{
+    background: url("../images/wblist/app_icon1.png");
+}
+.html_tab .icon{
+     background: url("../images/wblist/html5_icon1.png");
+ }
+.we_tab .icon{
+    background: url("../images/wblist/we_icon1.png");
+}
+.web_tab:hover .icon{
+    background: url("../images/wblist/web_icon2.png");
+}
+.app_tab:hover .icon{
+    background: url("../images/wblist/app_icon2.png");
+}
+.html_tab:hover .icon{
+    background: url("../images/wblist/html5_icon2.png");
+}
+.we_tab:hover .icon{
+    background: url("../images/wblist/we_icon2.png");
+}
+.list_con{
+    width: 1200px;
+    margin: auto;
+}
+.list_con ul{
+    margin-right: -24px;
+}
+.list_con li{
+    position: relative;
+    -webkit-box-shadow:  0 0 15px rgba(0,0,0,0.11);
+    -moz-box-shadow:  0 0 15px rgba(0,0,0,0.11);
+    box-shadow:  0 0 15px rgba(0,0,0,0.11);
+    width: 382px;
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 30px;
+    border: 1px solid #e5e5e5;
+}
+.list_con li:hover .mask{
+    display: block;
+}
+.list_con li img{
+    width: 382px;
+    height: 207px;
+}
+.list_con li p{
+    padding: 5px 20px 16px;
+}
+.item_name{
+    line-height: 43px;
+    height: 43px;
+    font-size: 16px;
+    color: #414141;
+}
+.flag{
+    height: 16px;
+    font-size: 13px;
+    color: #9a9a9a;
+}
+.flag span{
+    line-height: 16px;
+    float: right;
+    color: #9a9a9a;
+}
+.flag span:before{
+    vertical-align:sub;
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 16px;
+    margin-right:10px;
+    background: url("../images/wblist/eye.png");
+}
+.list_con .mask{
+    position: absolute;
+    width: 100%;
+    height: 207px;
+    background: rgba(0,0,0,0.8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+    top: 0;
+    right: 0;
+    display: none;
+}
+.mask .er{
+    width: 96px;
+    height: 96px;
+    background: url("../images/wblist/er.jpg");
+    margin: 45px auto 13px;
+}
+.turn{
+    display: block;
+    margin: auto;
+    width: 31px;
+    height: 31px;
+    background: url('../images/wblist/item_arrow.png');
+}
+.pagation{
+    width: 1200px;
+    margin: 25px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+.pagation span{
+    cursor: pointer;
+    font-size: 21px;
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 49px;
+    margin-right: 4px;
+    background: white;
+    border-radius: 12px;
+    color: #727272;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.pagation .left{
+    text-indent: 9999px;
+    background:white url("../images/wblist/l_arrow.png") no-repeat center center;
+}
+.pagation .right{
+    text-indent: 9999px;
+    background:white url("../images/wblist/r_arrow.png") no-repeat center center;
+}
+.pagation span:hover{
+    color: white;
+    border: 1px solid #17a6dd;
+    background: #17a6dd;
+}
+.pagation .select{
+    color: white;
+    border: 1px solid #17a6dd;
+    background: #17a6dd;
+}
+.pagation .left:hover{
+    background:#17a6dd url("../images/wblist/l_arrow2.png") no-repeat center center;
+}
+
+.pagation .right:hover{
+    background:#17a6dd url("../images/wblist/r_arrow2.png") no-repeat center center;
+}
+
+
