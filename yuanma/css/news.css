@@ -258,14 +258,20 @@
 	margin-right: 15px;
 	color: #999;
 }
-
+.news-body>dl dd {
+	width: 95%;
+	margin: 0 auto;
+	line-height: 30px;
+	background: url(../images/news/2.png) no-repeat left center;
+	text-indent: 15px;
+}
 .news-body>dl dt {
 	line-height: 35px;
 	color: #333;
 	border-bottom: 2px solid #e30602;
 	padding: 0 10px;
 	font-weight: bold;
-	background: url(../images/3.png) no-repeat 10px center;
+	background: url(../images/news/2.png) no-repeat 10px center;
 	text-indent: 15px;
 	font-size: 16px;
 	margin-bottom: 10px;
