@@ -94,3 +94,13 @@ $prev.on('click', function(){
 		// pageNow--;
 	}
 });
+
+var mySwiper = new Swiper('.swiper-container', {
+	autoplay: 3000,//��ѡѡ��Զ�����
+	loop : true,
+	updateOnImagesReady : true,
+	pagination : '.pagination',
+	paginationClickable :true,
+	//useCSS3Transforms : false,
+	calculateHeight : true
+})

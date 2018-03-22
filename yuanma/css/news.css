@@ -243,36 +243,71 @@
 /*新闻中间页面**/
 
 .news-body {
-	width: 1200px;
+	width: 1500px;
 	clear: both;
-	margin: 20px auto;
+	margin: 50px auto;
 	overflow: hidden;
+	display: flex;
+	align-content: center;
+	justify-content: center;
 }
 
 .news-body>dl {
 	list-style-type: none;
-	width: 388px;
+	width: calc(100%/4.4);
 	height: 268px;
 	border: 1px solid #ccc;
 	float: left;
 	margin-right: 15px;
 	color: #999;
 }
-.news-body>dl dd {
-	width: 95%;
-	margin: 0 auto;
-	line-height: 30px;
-	background: url(../images/news/2.png) no-repeat left center;
-	text-indent: 15px;
-}
+
 .news-body>dl dt {
 	line-height: 35px;
 	color: #333;
 	border-bottom: 2px solid #e30602;
 	padding: 0 10px;
 	font-weight: bold;
-	background: url(../images/news/2.png) no-repeat 10px center;
+	background: url(../images/news/3.png) no-repeat 10px center;
 	text-indent: 15px;
 	font-size: 16px;
 	margin-bottom: 10px;
+}
+
+.news-body>dl dd {
+	display: flex;
+	width: 95%;
+	margin: 0 auto;
+	line-height: 30px;
+	background: url(../images/news/2.png) no-repeat left center;
+	text-indent: 15px;
+}
+
+.news-body>dl>dt a {
+	float: right;
+	font-weight: normal;
+	color: #999;
+}
+
+.news-body>dl>dd a {
+	flex: 1;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	color: #666;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.news-body>dl dd>span {
+	float: right;
+}
+
+.news-body>dl dd:hover a {
+	color: #FF0000;
+	/* font-size: 14px; */
+	transition: color .3s ease-in;
+	-webkit-transition: color .3s ease-in;
+	-moz-transition: color .3s ease-in;
+	-o-transition: color .3s ease-in;
 }
