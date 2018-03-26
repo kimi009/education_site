@@ -46,7 +46,7 @@
     font-size: 14px;
 }
 
-/*µ¼º½ÇøÓò*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .dh_wp{
     width: 1200px;
     margin: auto;
@@ -63,7 +63,7 @@
 .dh_wp_left{
     float: right;
 }
-/*ËÑË÷*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 .index_search{
     margin-top: 25px;
     height: 25px;
@@ -90,7 +90,7 @@
     height: 15px;
     background: url("../images/search_icon.png");
 }
-/*µ¼º½*/
+/*ï¿½ï¿½ï¿½ï¿½*/
 .dh_op>li{
     float: left;
     line-height: 75px;
@@ -123,7 +123,7 @@
 .dh_op li:hover>a{
     color: #2096d4;
 }
-/*´Îµ¼º½*/
+/*ï¿½Îµï¿½ï¿½ï¿½*/
 .dh_wp2{
     display: none;
     top: 167px;
@@ -168,7 +168,7 @@
     font-size: 14px;
     color: white;
 }
-/*²à±ßÀ¸*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½*/
 .slide_bar{
     position: fixed;
     width: 58px;
@@ -258,7 +258,7 @@
 .slide_bar .li_5 span{
     background: url("../images/icon5.png") no-repeat center center;
 }
-/*½Å²¿*/
+/*ï¿½Å²ï¿½*/
 .foot_info{
     background: #f7f7f7;
 }
@@ -304,6 +304,7 @@
     font-size: 14px;
 }
 .foot_info .er_left{
+    /* display: none; */
     float:left;
     margin-left: 23px;
 }
@@ -321,7 +322,7 @@
     font-size: 14px;
     line-height: 34px;
 }
-/*ÍøÕ¾ÐÅÏ¢*/
+/*ï¿½ï¿½Õ¾ï¿½ï¿½Ï¢*/
 .foot_cpr{
     min-width: 1200px;
     height: 70px;

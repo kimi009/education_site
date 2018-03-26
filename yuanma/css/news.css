@@ -242,8 +242,47 @@
 
 /*新闻中间页面**/
 
+.news-content {
+	/* margin: 0 auto; */
+	overflow: hidden;
+}
+
+.content-header-left {
+	/* background-color: red; */
+	float: left;
+	width: 65%;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+
+.content-header-right {
+	/* background-color: green; */
+	margin-left: 66%;
+	margin-bottom: -9999px;
+	padding-bottom: 9999px;
+}
+
+.content-header-left
+.content-header-right{
+	min-height: 800px;
+	height: auto !important;
+	height: 800px;
+}
+
+.content-header-left>.swiper-container{
+	min-width: 800px;
+}
+.content-header-right>.top{
+	height: 200px;
+	margin-right: 10px;
+	background: url('../images/news/1.jpg') no-repeat
+}
+.content-header-right>.top img{
+	height: 200px;
+}
+
 .news-body {
-	width: 1500px;
+	width: 1200px;
 	clear: both;
 	margin: 50px auto;
 	overflow: hidden;

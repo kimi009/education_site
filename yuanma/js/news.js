@@ -96,8 +96,8 @@ $prev.on('click', function(){
 });
 
 var mySwiper = new Swiper('.swiper-container', {
-	autoplay: 3000,//��ѡѡ��Զ�����
-	loop : true,
+	autoplay: 3000,
+	loop : false,
 	updateOnImagesReady : true,
 	pagination : '.pagination',
 	paginationClickable :true,
